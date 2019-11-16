@@ -8,6 +8,7 @@ function Header(){
             <img src={kombucha1} />
             <Link to="/">Home</Link>
             <Link to="/list">Kombucha List</Link>
+            <Link to="/order">Order Online</Link>
         </div>
         
     );
