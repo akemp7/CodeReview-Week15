@@ -3,14 +3,15 @@ import PropTypes from 'prop-types';
 
 function Keg(props){
     return(
-        <div>
-            <ul>
-                <li>Name: {props.name}</li>
-                <li>Brand: {props.brand}</li>
-                <li>Price: {props.price}</li>
-                <li>Flavor: {props.flavor}</li>
-            </ul>
-        </div>
+            <div>
+                <p> {props.name}</p>
+                <ul>
+                    <li>Brand: {props.brand}</li>
+                    <li>Price: {props.price}</li>
+                    <li>Flavor: {props.flavor}</li>
+                </ul>
+            </div>
+       
     );
 }
 

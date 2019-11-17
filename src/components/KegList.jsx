@@ -4,21 +4,21 @@ import Navbar from './Navbar';
 
 var MasterKegList = [
     {
-        name: "K1",
+        name: "Kombucha1",
         brand: "Carnivors unite",
         price: "$11",
         flavor: "Meat"
 
     },
     {
-        name: "K2",
+        name: "Kombucha2",
         brand: "Adventorous Hippies",
         price: "$9",
         flavor: "Kale"
 
     },
     {
-        name: "K3",
+        name: "Kombucha3",
         brand: "Meh",
         price: "$4",
         flavor: "Mild Dissapointment"
@@ -28,18 +28,27 @@ var MasterKegList = [
 ]
 
 function KegList(){
+    var headerStyle = {
+        textAlign: "center",
+    }
     return(
-        <div>
-            <Navbar />
-            {MasterKegList.map((keg, index) =>
-            <Keg name={keg.name}
-                brand={keg.brand}
-                price={keg.price}
-                flavor={keg.flavor}
-                key={index} />
-                
+        
+            <div>
+                <h3 style={headerStyle}>Our Current List</h3>
+                <div>
+               
+                {MasterKegList.map((keg, index) =>
+                    <Keg name={keg.name}
+                        brand={keg.brand}
+                        price={keg.price}
+                        flavor={keg.flavor}
+                        key={index} />
+
                 )}
+                <Navbar />
+            </div>
         </div>
+     
     );
 }
 
