@@ -1,5 +1,6 @@
 import React from 'react';
 import Keg from './Keg';
+import Navbar from './Navbar';
 
 var MasterKegList = [
     {
@@ -29,6 +30,7 @@ var MasterKegList = [
 function KegList(){
     return(
         <div>
+            <Navbar />
             {MasterKegList.map((keg, index) =>
             <Keg name={keg.name}
                 brand={keg.brand}
