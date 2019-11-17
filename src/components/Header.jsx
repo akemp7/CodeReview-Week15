@@ -24,13 +24,22 @@ function Header(){
         fontSize: "80px",
 
     }
+
+    var heroInfo = {
+        textAlign: "center",
+        position: "absolute",
+        bottom: "50%",
+        left: "30%",
+        fontSize: "25px",
+        fontWeight: "bold"
+    }
     return(
         <div>
             <div className="hero-image">
                 <div className="hero-text">
                     <img src={kombucha} style={coverPic} />
                     <h1 style={heroText}>Adequate Kombuchas</h1>
-                    <p>About Us:</p>
+                    <p style={heroInfo}>We are enthusiastic about our fermented tea</p>
                 </div>
             </div>
         </div>
