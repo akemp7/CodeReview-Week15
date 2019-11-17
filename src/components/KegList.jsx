@@ -19,7 +19,7 @@ var MasterKegList = [
 
     },
     {
-        name: "Kombucha3",
+        name: "Kombucha3 ***THIS ONE IS THE MOST PALATABLE***",
         brand: "Meh",
         price: "$4",
         flavor: "Mild Dissapointment"
