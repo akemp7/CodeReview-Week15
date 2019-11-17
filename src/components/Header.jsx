@@ -30,6 +30,7 @@ function Header(){
                 <div className="hero-text">
                     <img src={kombucha} style={coverPic} />
                     <h1 style={heroText}>Adequate Kombuchas</h1>
+                    <p>About Us:</p>
                 </div>
             </div>
         </div>
