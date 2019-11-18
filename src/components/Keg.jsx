@@ -6,7 +6,7 @@ function Keg(props){
         textAlign: "center"
     }
     return(
-            <div>
+            <div className="container">
                 <p style={propsStyle}> {props.name}</p>
                 <ul>
                 <li>Brand: {props.brand}</li>
@@ -14,7 +14,6 @@ function Keg(props){
                 <li>Flavor: {props.flavor}</li>
                 </ul>
             </div>
-       
     );
 }
 

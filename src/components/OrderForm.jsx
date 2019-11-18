@@ -10,6 +10,7 @@ function OrderForm(){
         <div>
             <h3 style={orderStyle}>Order Your Keg Here!</h3>
             <p style={orderStyle}>Minimum of 2 kegs per order.</p>
+            <hr/>
             <form>
                 <input type="text"
                 id='brand'

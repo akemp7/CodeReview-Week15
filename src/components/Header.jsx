@@ -39,7 +39,7 @@ function Header(){
                 <div className="hero-text">
                     <img src={kombucha} style={coverPic} />
                     <h1 style={heroText}>Adequate Kombuchas</h1>
-                    <p style={heroInfo}>We are enthusiastic about our fermented tea</p>
+                    <p style={heroInfo}>We are somewhat proud about our fermented tea</p>
                 </div>
             </div>
         </div>

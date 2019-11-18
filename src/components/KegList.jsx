@@ -6,14 +6,14 @@ import kombucha2 from '../Assets/kombucha2.jpg'
 var MasterKegList = [
     {
         name: "Kombucha1",
-        brand: "Carnivors unite",
+        brand: "Carnivores Unite",
         price: "$11",
         flavor: "Meat"
 
     },
     {
         name: "Kombucha2",
-        brand: "Adventorous Hippies",
+        brand: "Adventurous Hippies",
         price: "$9",
         flavor: "Kale"
 
@@ -37,13 +37,15 @@ function KegList(){
         width: "40%",
         height: "300px",
         float: "right",
-        paddingRight: "10%"
+        paddingRight: "10%",
+        paddingTop: "5%",
     }
     return(
         
             <div>
                 <h3 style={headerStyle}>Our Current List</h3>
                 <img style={imageStyle} src={kombucha2} />
+                <hr/>
                 <div>
                
                 {MasterKegList.map((keg, index) =>
