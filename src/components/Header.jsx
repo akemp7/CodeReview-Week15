@@ -33,14 +33,27 @@ function Header(){
         fontSize: "25px",
         fontWeight: "bold"
     }
+
+    var reviewInfo = {
+        textAlign: "center",
+        position: "absolute",
+        bottom: "20%",
+        left: "30%",
+        fontSize: "15px",
+        fontStyle: "italic",
+        color: "#7FFF00",
+        fontWeight: "bold"
+    }
     return(
         <div>
             <div className="hero-image">
                 <div className="hero-text">
                     <img src={kombucha} style={coverPic} />
                     <h1 style={heroText}>Adequate Kombuchas</h1>
-                    <p style={heroInfo}>We are somewhat proud about our fermented tea</p>
+                    <p style={heroInfo}>We are somewhat proud of our fermented tea!</p>
+                    <p style={reviewInfo}>Not an entirely displeasing experience -  Anonymous Reviewer</p>
                 </div>
+                
             </div>
         </div>
     );
