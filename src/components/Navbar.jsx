@@ -19,6 +19,7 @@ function Navbar(){
                 <nav>
                     <Link style={navStyling} to="/">Home</Link>
                     <Link style={navStyling} to="/list">Kombucha List</Link>
+                    <Link style={navStyling} to="/add">New Keg</Link>
                     <Link style={navStyling} to="/order">Order Online</Link>
                 </nav>
             </div>
