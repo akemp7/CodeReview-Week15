@@ -2,12 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Keg(props){
-    var propsStyle = {
-        textAlign: "center"
-    }
+
+
     return(
             <div className="container">
-                <p style={propsStyle}> {props.name}</p>
+                <p> {props.name}</p>
                 <ul>
                 <li>Brand: {props.brand}</li>
                 <li>Price: {props.price}</li>
@@ -15,7 +14,8 @@ function Keg(props){
                 </ul>
             </div>
     );
-}
+    }
+
 
 Keg.propTypes = {
     name: PropTypes.string,
