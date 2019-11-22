@@ -3,30 +3,7 @@ import Keg from './Keg';
 import Navbar from './Navbar';
 import kombucha2 from '../Assets/kombucha2.jpg'
 
-var MasterKegList = [
-    {
-        name: "Kombucha1",
-        brand: "Carnivores Unite",
-        price: "$11",
-        flavor: "Meat"
-
-    },
-    {
-        name: "Kombucha2",
-        brand: "Adventurous Hippies",
-        price: "$9",
-        flavor: "Kale"
-
-    },
-    {
-        name: "Kombucha3 ***THIS ONE IS THE MOST PALATABLE***",
-        brand: "Meh",
-        price: "$4",
-        flavor: "Mild Dissapointment"
-
-    },
-
-]
+var MasterKegList = []
 
 function KegList(){
     var headerStyle = {

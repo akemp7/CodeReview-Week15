@@ -1,6 +1,6 @@
 # _Anita Kemp's Kombucha Tap Room_
 
-#### _An app that allows the user to track inventory as part of this week's code review at Epicodus, 11/15/2019._
+#### _An app that allows the user to track inventory as part of this week's code review at Epicodus, 11/15/2019 and 11/22/2019._
 
 #### By _Anita Kemp_
 
