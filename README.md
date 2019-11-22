@@ -9,7 +9,7 @@
 This application will allow a patron to see what the current list of kombucha's availabale are. 
 
 ## Component Diagram
-<img src="src/Assets/Readme.jpg" />
+<img src="src/Assets/Readmediagram.png" />
 
 ## Setup/Installation Requirements
 
