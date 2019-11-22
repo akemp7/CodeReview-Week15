@@ -43,6 +43,7 @@ function KegList(){
     return(
         
             <div>
+            <Navbar />
                 <h3 style={headerStyle}>Our Current List</h3>
                 <img style={imageStyle} src={kombucha2} />
                 <hr/>
@@ -56,7 +57,7 @@ function KegList(){
                         key={index} />
 
                 )}
-                <Navbar />
+                
             </div>
         </div>
      
