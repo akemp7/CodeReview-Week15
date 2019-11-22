@@ -26,8 +26,8 @@ class App  extends React.Component(){
             <div>
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    <Route path="/list" component={KegList} />
-                    <Route path="/order" component={OrderForm} />
+                    <Route path = '/add' render={() => <AddKeg onKegCreation={this.handleNewKeg} />} />
+                   
                 </Switch>
             </div>
         );
